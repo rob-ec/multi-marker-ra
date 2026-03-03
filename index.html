@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
   </head>
   <body>
-    <a-scene embedded arjs>
+    <a-scene embedded arjs="sourceType: webcam;" cursor="rayOrigin: mouse" raycaster="objects: .clickable">
       <a-marker type="pattern" url="assets/markers/goblin-a.patt">
         <a-box color="blue" position="0 0.5 0" scale="1 1 1"></a-box>
       </a-marker>
