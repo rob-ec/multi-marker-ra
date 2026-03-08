@@ -20,13 +20,18 @@
       </a-marker>
 
       <a-marker type="pattern" url="assets/markers/goblin-c.patt">
-        <a-box color="red" position="0 0.5 0" scale="1 1 1"></a-box>
+        <a-entity
+          class="clickable"
+          gltf-model="url(assets/3d/goblin.glb)"
+          scale="0.08 0.08 0.08"
+          position="0 0 0"
+        >
+        </a-entity>
       </a-marker>
 
       <a-marker type="pattern" url="assets/markers/spider.patt">
         <a-entity
           class="clickable"
-          interactable-model
           gltf-model="url(assets/3d/wolf_spider_rigged_-_rabidosa_rabida.glb)"
           scale="0.08 0.08 0.08"
           position="0 0 0"
