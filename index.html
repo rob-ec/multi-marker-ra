@@ -14,6 +14,7 @@
       embedded
       arjs="sourceType: webcam;"
       cursor="rayOrigin: mouse"
+      renderer="colorManagement: true;"
       raycaster="objects: .clickable"
     >
       <a-marker type="pattern" url="assets/markers/goblin-a.patt">
@@ -43,7 +44,6 @@
           animation-mixer
         >
         </a-entity>
-        <a-entity light="type: ambient; color: #FBB"></a-entity>
       </a-marker>
 
       <a-marker type="pattern" url="assets/markers/sword.patt">
@@ -64,8 +64,11 @@
         >
         </a-entity>
       </a-marker>
-
-      <a-entity camera></a-entity>
+      
+      <a-entity camera>
+        <a-entity light="type: directional; intensity: 1; position: 1 1 1"></a-entity>
+        <a-entity light="type: ambient; intensity: 1"></a-entity>
+      </a-entity>
     </a-scene>
   </body>
 </html>
