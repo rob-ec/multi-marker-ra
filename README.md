@@ -1,6 +1,6 @@
-# RPG de Papél
+# RPG de Papel
 
-RPG de Papél is an alternative for using 3D "figures" on RPG tables even if you don't have a 3D printer or the money to buy the figures. With a regular printer, you can print and cut out the markers to use on the table, maintaining the physical appearance at the cost of printing on A4 paper.
+RPG de Papel is an alternative for using 3D "figures" on RPG tables even if you don't have a 3D printer or the money to buy the figures. With a regular printer, you can print and cut out the markers to use on the table, maintaining the physical appearance at the cost of printing on A4 paper.
 
 Marker patterns created with [**AR.js** Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
